@@ -175,9 +175,9 @@
 -- ON Nhachothue(Tenchunha)
 -- DROP INDEX IX_Nhachothue_Tenchunha ON Nhachothue
 
-SELECT Nhachothue.Tenchunha, COUNT(MaN) AS "TONG SO LUONG NHA CHO THUE"
-FROM Nhachothue
-GROUP BY Nhachothue.Tenchunha;
+-- SELECT Nhachothue.Tenchunha, COUNT(MaN) AS "TONG SO LUONG NHA CHO THUE"
+-- FROM Nhachothue
+-- GROUP BY Nhachothue.Tenchunha;
 
 --D
 --1
